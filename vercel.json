@@ -1,0 +1,10 @@
+{
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "crons": [
+      {
+        "path": "/api/GET",
+        "schedule": "0 0 * * *",
+        "description": "Daily data fetch at midnight New York time"
+      }
+    ]
+  }
